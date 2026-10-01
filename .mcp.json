@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "groundwork": {
+      "type": "http",
+      "url": "https://www.groundworkdemographics.com/mcp"
+    }
+  }
+}
