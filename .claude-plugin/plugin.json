@@ -1,5 +1,5 @@
 {
-  "name": "groundwork",
+  "name": "groundwork-demographics",
   "displayName": "Groundwork",
   "version": "1.0.0",
   "description": "Site and market reports for any U.S. location: residents, incomes, household spending, competitors, traffic and growth. Write site memos, find businesses to buy and compare sites, from your Groundwork account.",
@@ -9,6 +9,7 @@
     "url": "https://www.groundworkdemographics.com"
   },
   "homepage": "https://www.groundworkdemographics.com/assistants",
+  "privacyPolicyUrl": "https://www.groundworkdemographics.com/privacy",
   "repository": "https://github.com/WilliamJosephMcCord/groundwork-claude-plugin",
   "license": "MIT",
   "keywords": ["site selection", "demographics", "market research", "acquisitions", "local business", "competitors"]
