@@ -1,17 +1,18 @@
 # Groundwork for Claude
 
-Groundwork measures the market around any U.S. location for people buying, opening or running local businesses: residents, households, incomes, household spending on the business type, competitors, jobs, traffic and growth. This plugin connects Claude to your Groundwork account and adds three skills that turn Groundwork's reports into finished work.
+Groundwork measures the market around any U.S. location for people opening, running or studying local businesses: residents, households, incomes, household spending on the business type, nearby businesses of that type, jobs, traffic and growth. This plugin connects Claude to your Groundwork account and adds three skills that turn Groundwork's reports into finished work.
 
 ## What's inside
 
 - **The Groundwork connector** (`https://www.groundworkdemographics.com/mcp`), with five tools:
-  - `site_report`: the market around one site in 1, 3 and 5-mile rings, with the nearest competitors by name. One action.
-  - `market_report`: every business of one type within up to 25 miles, each measured by the market around it. One action.
-  - `compare_sites`: two or three sites side by side, with percentiles and a similarity score. One action per site.
-  - `account_status` and `business_types`: free.
+  - `site_report`: the market around one site in 1, 3 and 5-mile rings, with the nearest businesses of the type by name.
+  - `market_report`: the listed businesses of one type within up to 25 miles, each measured by the market around it.
+  - `compare_sites`: two or three sites side by side, with percentiles and a similarity score.
+  - `account_status`: your Groundwork plan.
+  - `business_types`: the business types Groundwork measures.
 - **Skills:**
   - `site-memo`: a one-page memo on a site.
-  - `market-scan`: a shortlist of businesses to buy, or the least-served spots in an area.
+  - `market-scan`: a shortlist of businesses in an area, or its least-served spots.
   - `site-comparison`: which sites are alike, and where they differ.
 
 ## Getting started
@@ -20,7 +21,7 @@ Groundwork measures the market around any U.S. location for people buying, openi
 2. Log in to your Groundwork account when asked, and choose Allow.
 3. Ask, for example: "Write a site memo for collision repair at 1500 Polaris Pkwy, Columbus, OH 43240."
 
-You need a Groundwork account. Reports spend actions from your Groundwork plan, the same as on the website; asking again about a place within 12 hours costs nothing.
+You need a Groundwork account on a plan that includes Groundwork in Claude. Reports run through Claude aren't counted.
 
 ## What it sends
 
